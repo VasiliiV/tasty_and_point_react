@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: #ef6b50;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.Fon {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
