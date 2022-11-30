@@ -1,0 +1,22 @@
+.displayMain {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 19px;
+    position: relative;
+    justify-content: center;
+}
+.displayMain-logo {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 35px;
+    position: relative;
+}
+.displayMain-logo_item {
+    height: 100%;
+}
