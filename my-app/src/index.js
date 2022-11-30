@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Menu from './macdon/macdon';
+import DisplayImg from './macdon/DisplayImg/display_img';
+import DisplayNavig from './macdon/DisplayNavig/display_navig';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Menu />
+    <Menu/>
+    <DisplayImg/>
+    <DisplayNavig/>
   </React.StrictMode>
 );
 

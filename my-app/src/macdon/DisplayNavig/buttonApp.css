@@ -1,0 +1,9 @@
+.ButtonApp {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 25px;
+    padding-left: 26px;
+    height: 100%;
+    cursor: pointer;
+}
