@@ -3,6 +3,9 @@ import logo from './logo_navig.png'
 import SpanCity from './spanCity';
 import ButtonApp from './buttonApp';
 import logoApp from "./20944110.jpg"
+import MenuMore from './menu_down/meni_more';
+import MenuWrap from './menu_down/menu_wrap';
+import MenuBase from './menu_base/menu_base';
 
 function DisplayNavig() {
     return (
@@ -28,21 +31,14 @@ function DisplayNavig() {
                     <ButtonApp text="Скачать" paddingRight="26px"/>
             </div>
         </div>
-        <div className='MenuBase'>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <div className='menu-categories-outer'>
+            <div className='menu-categories'>
+                <MenuWrap/>
+                <MenuMore/>
+            </div>
+
         </div>
+            <MenuBase/> 
     </div>
     )
 }
